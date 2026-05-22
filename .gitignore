@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Data (raw + large intermediate)
+data/
+*.tsv
+*.npz
+*.npy
+*.pkl
+
+# Artifacts
+artifacts/
+**/SHAP_ANCHOR_*/
+**/LR_OOF_*/
+**/RF_FI_*/
+
+# Logs
+*.log
+logs/
+final_logs/
+
+# Catboost training info
+catboost_info/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+*.bak
+*.tmp
+*.orig

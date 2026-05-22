@@ -1,0 +1,21 @@
+# Paper3: TabPFN-Anchor 필수 패키지
+# 설치: pip install -r requirements.txt
+
+# Core
+numpy
+pandas
+scikit-learn
+
+# ML Baselines
+xgboost
+lightgbm
+catboost
+
+# TabPFN
+torch
+tabpfn
+tabpfn-extensions[interpretability]
+
+# Visualization (optional, notebook용)
+matplotlib
+seaborn

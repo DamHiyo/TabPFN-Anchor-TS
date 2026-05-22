@@ -2,6 +2,10 @@
 
 **Multi-Stage Feature Selection with TabPFN (M1) for High-Dimensional Cancer Subtype Classification**
 
+[**📄 논문 PDF 원본 열기 (GitHub 내장 뷰어)**](kcc_paper_tabpfn_m1.pdf)
+
+![Paper preview](figures/paper_preview-1.png)
+
 A focused study demonstrating that a **single TabPFN model (M1)** trained on 500 genes selected by our multi-stage pipeline (LR PI → RF Gini → TabPFN+SHAP) outperforms traditional ML models using the full ~20,000 gene expression matrix.
 
 ---
